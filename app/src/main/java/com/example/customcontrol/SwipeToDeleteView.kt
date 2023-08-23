@@ -47,7 +47,6 @@ class SwipeToDeleteView @JvmOverloads constructor(
             return super.onFling(e1, e2, velocityX, velocityY)
         }
 
-        //为啥这个方法返回true滑动才生效呢?
         override fun onDown(e: MotionEvent): Boolean {
             return true
         }

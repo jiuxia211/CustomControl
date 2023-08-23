@@ -1,5 +1,6 @@
 package com.example.customcontrol
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -17,11 +18,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         initTails()
         val layoutManager = LinearLayoutManager(this)
-//        layoutManager.canScrollHorizontally()
         binding.recyclerView.layoutManager = layoutManager
         val adapter = TailsAdapter(tailsList)
         binding.recyclerView.adapter = adapter
-
+        binding.nextButton.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     companion object {
