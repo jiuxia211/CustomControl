@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.customcontrol.app-mergeDebugResources-24:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "E:\\.gradle\\caches\\transforms-3\\64ec389951e137d8b3564dce9b4e4815\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

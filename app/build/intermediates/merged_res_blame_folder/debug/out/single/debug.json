@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\layout_tails_item.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\layout\\tails_item.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_eatwatermelon.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\eatwatermelon.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\xml_data_extraction_rules.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_cry.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\cry.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\layout_activity_main.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.customcontrol.app-merged_res-26:/layout_activity_second.xml.flat",
+        "source": "com.example.customcontrol.app-main-28:/layout/activity_second.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\layout_activity_second.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_voidx.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\voidx.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_like.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\like.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_quiet.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\quiet.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_ruminate.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\ruminate.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_angry.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\angry.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_pinchface.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\pinchface.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_expect.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\expect.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\xml_backup_rules.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_hug.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\hug.png"
+    },
+    {
+        "merged": "com.example.customcontrol.app-merged_res-26:/layout_activity_third.xml.flat",
+        "source": "com.example.customcontrol.app-main-28:/layout/activity_third.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_lovely.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\lovely.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_surprise.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\surprise.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_sleepy.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\sleepy.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_tea.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\tea.png"
+    },
+    {
+        "merged": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-merged_res-26:\\drawable-xxhdpi_unhappy.png.flat",
+        "source": "E:\\.gradle\\daemon\\7.5\\com.example.customcontrol.app-main-28:\\drawable-xxhdpi\\unhappy.png"
+    }
+]

@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.customcontrol"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.12.0-rc01] E:\.gradle\caches\transforms-3\016a980f102c3c92b47a6aae888fb3a2\transformed\core-1.12.0-rc01\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.customcontrol.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0-rc01] E:\.gradle\caches\transforms-3\016a980f102c3c92b47a6aae888fb3a2\transformed\core-1.12.0-rc01\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0-rc01] E:\.gradle\caches\transforms-3\016a980f102c3c92b47a6aae888fb3a2\transformed\core-1.12.0-rc01\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.customcontrol.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0-rc01] E:\.gradle\caches\transforms-3\016a980f102c3c92b47a6aae888fb3a2\transformed\core-1.12.0-rc01\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0-rc01] E:\.gradle\caches\transforms-3\016a980f102c3c92b47a6aae888fb3a2\transformed\core-1.12.0-rc01\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:5:5-29:19
+18        android:allowBackup="true"
+18-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.12.0-rc01] E:\.gradle\caches\transforms-3\016a980f102c3c92b47a6aae888fb3a2\transformed\core-1.12.0-rc01\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:11:9-35
+27        android:theme="@style/Theme.CustomControl" >
+27-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:12:9-51
+28        <activity
+28-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:14:9-16:40
+29            android:name="com.example.customcontrol.ThirdActivity"
+29-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:15:13-42
+30            android:exported="false" />
+30-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:16:13-37
+31        <activity
+31-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:17:9-19:40
+32            android:name="com.example.customcontrol.SecondActivity"
+32-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:18:13-43
+33            android:exported="false" />
+33-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:19:13-37
+34        <activity
+34-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:20:9-28:20
+35            android:name="com.example.customcontrol.MainActivity"
+35-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:21:13-41
+36            android:exported="true" >
+36-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:22:13-36
+37            <intent-filter>
+37-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:23:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:24:17-69
+38-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:26:17-77
+40-->E:\Android Project\CustomControl\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\9c63a5227edf69ad4b3b09318c917ac1\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\9c63a5227edf69ad4b3b09318c917ac1\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+46            android:authorities="com.example.customcontrol.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\9c63a5227edf69ad4b3b09318c917ac1\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\9c63a5227edf69ad4b3b09318c917ac1\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\9c63a5227edf69ad4b3b09318c917ac1\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\9c63a5227edf69ad4b3b09318c917ac1\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\9c63a5227edf69ad4b3b09318c917ac1\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] E:\.gradle\caches\transforms-3\81c84e933c97475f93683cc3fc9d298c\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] E:\.gradle\caches\transforms-3\81c84e933c97475f93683cc3fc9d298c\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] E:\.gradle\caches\transforms-3\81c84e933c97475f93683cc3fc9d298c\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
