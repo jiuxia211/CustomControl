@@ -5,6 +5,7 @@ import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.AttributeSet
+import android.util.Log
 import android.view.View
 import android.view.animation.AccelerateDecelerateInterpolator
 
@@ -32,6 +33,7 @@ class StatisticChartView @JvmOverloads constructor(
     private val paint = Paint().apply {
         //画线模式 默认为填充模式
         style = Paint.Style.STROKE
+        textSize = 18f
     }
     private var data: Array<FloatArray>? = null // 二维数组存储数据
     private var chartFlag: Int = 0
@@ -54,7 +56,8 @@ class StatisticChartView @JvmOverloads constructor(
                 }
             }
         }
-        return max
+        //留一些空隙用来写数据
+        return max + 10
     }
 
 
@@ -66,7 +69,8 @@ class StatisticChartView @JvmOverloads constructor(
                     //计算宽度
                     val numRows = it.size
                     val numCols = it[0].size
-                    val barWidth = width.toFloat() / (numCols * (numRows + 1))
+                    val barWidth = width.toFloat() / (numCols * numRows + numRows - 1)
+                    Log.d("zz", (numCols * numRows + numRows - 1).toString())
                     var startX = 0f
                     it.forEach { dataArray ->
                         dataArray.forEach { value ->
@@ -78,15 +82,51 @@ class StatisticChartView @JvmOverloads constructor(
                                 height.toFloat(),
                                 paint
                             )
+                            canvas.drawText(
+                                value.toString(),
+                                startX,
+                                height - barHeight,
+                                paint
+                            )
                             startX += barWidth
                         }
+                        // 条形间的间隔
                         startX += barWidth
                     }
                 }
 
             }
             LINE_CHART -> {
-
+                data?.let {
+                    //计算宽度
+                    val barWidth = width.toFloat() / (it[0].size + 1)
+                    it.forEach { dataArray ->
+                        var startX = barWidth
+                        for (i in 0 until (dataArray.size - 1)) {
+                            canvas.drawLine(
+                                startX,
+                                height - (dataArray[i] / maxDataValue * height * animProgress),
+                                (startX + barWidth) * animProgress,
+                                height - (dataArray[i + 1] / maxDataValue * height * animProgress),
+                                paint
+                            )
+                            canvas.drawText(
+                                dataArray[i].toString(),
+                                startX,
+                                height - (dataArray[i] / maxDataValue * height * animProgress),
+                                paint
+                            )
+                            startX += barWidth
+                        }
+                        //补充最后一个点的数据
+                        canvas.drawText(
+                            dataArray[dataArray.size - 1].toString(),
+                            startX,
+                            height - (dataArray[dataArray.size - 1] / maxDataValue * height * animProgress),
+                            paint
+                        )
+                    }
+                }
             }
         }
     }
